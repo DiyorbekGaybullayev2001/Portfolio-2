@@ -413,7 +413,7 @@ section{
 }
 .skills .typescript::before{
     width: 60%;
-    background: blue;
+    background: rgb(107, 12, 196);
 }
 .skills .sass::before{
     width: 70%;
