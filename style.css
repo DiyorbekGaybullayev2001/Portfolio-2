@@ -408,7 +408,7 @@ section{
     background: blue;
 }
 .skills .javascript::before{
-    width: 50%;
+    width: 70%;
     background: gold;
 }
 .skills .sass::before{
