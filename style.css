@@ -317,7 +317,7 @@ section{
 
 }
 .about .content .img-card img:hover{
-    transform: scale(2);
+    transform: scale(1.5);
     transition: all 1s;
 }
 .about .content-title{
