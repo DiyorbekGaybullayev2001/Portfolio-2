@@ -152,14 +152,14 @@ section{
     background-position: center;
     background-attachment: fixed;
 }
-.main .content h2{
+.main .content h1{
     color: #fff;
     font-size: 36px;
     font-weight: 500;
     letter-spacing: 1px; /* harflar orasidagi masofa  */
 
 }
-.main .content h2 span{
+.main .content h1 span{
     font-size: 60px;
     font-weight: 600;
     text-shadow: 0px 0px 5px #a51212;
@@ -212,7 +212,7 @@ section{
     transition: .5s ease;
 }
 .btn:hover{
-    background: white;
+    background: rgb(226, 226, 226);
     color: black;
     transition: .5s ease;
 }
@@ -325,6 +325,45 @@ section{
     font-weight: 800;
     margin-bottom: 20px;
 }
+.about .p-ru{
+    display: none;
+}
+.about .p-uz{
+    display: none;
+}
+.about .p-ru2{
+    display: block;
+}
+.about .p-uz2{
+    display: block;
+}
+
+.about .btn1-1{
+    color: #fff;
+    background: crimson;
+    font-size: 17px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;   /*hamma harflarni katta bn yozadi */
+    text-decoration: none;
+    border: none;
+    /* display: none; */
+    outline: none;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin: 30px 0;
+    transition: .5s ease;
+}
+.btn1-1:hover{
+    background: rgb(226, 226, 226) ;
+    /* border: 1px solid black; */
+    color: crimson;
+    letter-spacing: 1px;
+    transition: .5s ease;
+    font-size: 18px;
+    font-weight: 500;
+}
+
 .btn1{
     color: #fff;
     background: crimson;
@@ -333,6 +372,8 @@ section{
     padding: 10px 20px;
     text-transform: uppercase;   /*hamma harflarni katta bn yozadi */
     text-decoration: none;
+    border: none;
+    outline: none;
     letter-spacing: 1px;
     border-radius: 10px;
     margin: 30px 0;
@@ -415,6 +456,10 @@ section{
     width: 60%;
     background: rgb(107, 12, 196);
 }
+.skills .reactjs::before{
+    width: 50%;
+    background: rgb(11, 137, 221);
+}
 .skills .sass::before{
     width: 70%;
     background: rgb(12, 194, 36);
@@ -432,6 +477,8 @@ section{
 }
 .title p{
     width: 80%;
+    text-align: center;
+    font-size: 22px;
 }
 .services .content .card{
     background: #fff;
@@ -602,23 +649,26 @@ section{
     border-radius: 5px;
     resize: none;  /* textarea-ni uchirib quyadi */
 }
+
 .contact-form .input-box .send-btn{
     color: #fff;
     background: crimson;
     display: inline-block;
     font-size: 19px;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 2px;   /*harflar orasidagi masofasi*/
+    letter-spacing: 3px;   /*harflar orasidagi masofasi*/
     width: 100%;
     border: none;
     cursor: pointer;
-    transition: .5s ease;
+    /* transition: .5s ease; */
+    transition: all .5s;
 }
 .contact-form .input-box .send-btn:hover{
-    background: #fff;
+    background: rgb(226, 226, 226);
     color: #000;
     border: 1px solid #111;
+    transition: all .5s;
 }
 .footer{
     /* border-radius: 300px 300px 0 0; */
